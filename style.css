@@ -34,7 +34,11 @@ a{
     color:#465159;
     font-variant: small-caps;
     font-family: Gotham Regular;
+}
 
+a:hover{
+	color:#fbc411;
+        text-decoration: strong;
 }
 
 ul li{
