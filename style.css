@@ -28,6 +28,20 @@
     left: 0px;
 }
 
+#aboutbg{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+#title{
+    margin-left: 220px;
+    font-size:25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color:#1b1b1b;
+    font-family:Gotham Regular;
+}
 
 a{
     text-decoration: none;
