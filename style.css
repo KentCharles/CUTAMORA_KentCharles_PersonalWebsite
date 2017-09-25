@@ -78,6 +78,21 @@ ul li{
     line-height: 50px;
 }
 
+table{
+    marging-left: 350px;
+    width: 40%;
+}
+tr td{
+    margin-left: 200px;
+    width:70%;	
+}
+
+tr th{
+    margin-left: 200px;
+    width:70%;	
+    text-align: left;
+}
+
 
 p{
     color:white;
