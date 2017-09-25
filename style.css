@@ -43,6 +43,13 @@
     font-family:Gotham Regular;
 }
 
+hr{
+    margin-left: 190px;
+    margin-right: 190px;
+    background-color: #1b1b1b;
+    height: 2px;
+}
+
 a{
     text-decoration: none;
     color:#465159;
