@@ -21,7 +21,7 @@
 #Footer{
     width: 100%;
     height: 90px;
-    background-color: #000000; 
+    background-color: #2b7a77; 
     text-align:center;
     position: absolute;
     left: 0px;
@@ -34,7 +34,7 @@
 }
 
 #portfoliobg{
-    background-color: #1b1b1b;
+    background-color: #2b7a77;
     width: 100%;
     height: 100%;
 
@@ -42,7 +42,7 @@
 
 #title{
     margin-left: 350px;
-    font-size:30px;
+    font-size:20px;
     text-decoration: none;
     color:#1b1b1b;
     font-variant: small-caps;
@@ -87,7 +87,7 @@ p{
 h1{
     font-size:20px;
     text-decoration: none;
-    color:#fbc411;
+    color:#ffffff;
     font-variant: small-caps;
     font-family: Gotham Regular;
 }
