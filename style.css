@@ -7,7 +7,6 @@
 #Header{
     width: 100%;
     height: 55px;
-    background-color: #ffea00;
     position: fixed;
     top: 0px; 
 }
@@ -59,13 +58,14 @@ hr{
 
 a{
     text-decoration: none;
-    color:#000000;
+    font-size:15px;
+    color:#17242a;
     font-variant: small-caps;
     font-family: Gotham Regular;
 }
 
 a:hover{
-	color:#fbc411;
+	color:#3aafa9;
         text-decoration: strong;
 }
 
@@ -78,15 +78,10 @@ ul li{
     line-height: 50px;
 }
 
-ul li:hover{
-    background: #1b1b1b;
-    color: #ffea00;
-}
-
 
 p{
-	color:white;
-	font-family: Helvetica LT Std Light;
+    color:white;
+    font-family: Helvetica LT Std Light;
 }
 
 h1{
