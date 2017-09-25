@@ -42,17 +42,17 @@
 }
 
 #title{
-    margin-left: 220px;
-    font-size:25px;
-    letter-spacing: 2px;
+    margin-left: 350px;
+    font-size:30px;
     text-decoration: none;
     color:#1b1b1b;
-    font-family:Gotham Regular;
+    font-variant: small-caps;
+    font-family: Gotham Regular;
 }
 
 hr{
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: #1b1b1b;
     height: 2px;
 }
@@ -93,6 +93,14 @@ h1{
     font-size:20px;
     text-decoration: none;
     color:#fbc411;
+    font-variant: small-caps;
+    font-family: Gotham Regular;
+}
+
+h2{
+    font-size:20px;
+    text-decoration: none;
+    color:#1b1b1b;
     font-variant: small-caps;
     font-family: Gotham Regular;
 }
