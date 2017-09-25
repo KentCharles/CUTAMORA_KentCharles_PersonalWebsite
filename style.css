@@ -44,16 +44,16 @@
     margin-left: 350px;
     font-size:20px;
     text-decoration: none;
+    letter-spacing: 2px;
     color:#1b1b1b;
-    font-variant: small-caps;
-    font-family: Gotham Regular;
+    font-family: Helvetica LT Std Light;
 }
 
 hr{
     margin-left: 300px;
     margin-right: 300px;
     background-color: #1b1b1b;
-    height: 2px;
+    height: 0.5px;
 }
 
 a{
@@ -99,3 +99,9 @@ h2{
     font-variant: small-caps;
     font-family: Gotham Regular;
 }
+
+h3{
+    font-size:15px;
+    color:#17242a;
+    font-family: Gotham Regular;
+}	
