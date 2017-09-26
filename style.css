@@ -21,7 +21,7 @@
 #Footer{
     width: 100%;
     height: 90px;
-    background-color: #2b7a77; 
+    background-color: #0e394d; 
     text-align:center;
     position: absolute;
     left: 0px;
@@ -34,7 +34,7 @@
 }
 
 #portfoliobg{
-    background-color: #2b7a77;
+    background-color: #0e394d;
     width: 100%;
     height: 100%;
 
@@ -47,6 +47,18 @@
     letter-spacing: 2px;
     color:#1b1b1b;
     font-family: Helvetica LT Std Light;
+}
+
+#skill{
+    font-family: Helvetica LT Std Light;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#skilltitle{
+    font-family: Gotham Regular;
+    font-size: 20px;
+    color: #ffffff;
 }
 
 hr{
