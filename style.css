@@ -61,6 +61,24 @@
     color: #ffffff;
 }
 
+#hrskill{
+
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #ffffff;
+    height: 0.5px;
+
+}
+
+#titleskill{
+    margin-left: 350px;
+    font-size:20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:#ffffff;
+    font-family: Helvetica LT Std Light;
+}
+
 hr{
     margin-left: 300px;
     margin-right: 300px;
