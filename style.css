@@ -7,35 +7,43 @@
 #Header{
     background-color: #ffffff; 
     width: 100%;
-    height: 50px;
+    height: 60px;
     position: fixed;
     top: 0px; 
+    box-shadow: -2px 0px 20px #000000;
 }
 
 #NavBar{
-    margin-right: 120px;
+    margin-right: 170px;
     width:800px;
-    height: 45px;
+    height: 55px;
     float:right;	
 }
 
 #Footer{
     width: 100%;
     height: 90px;
-    background-color: #0e394d; 
+    background-color: #050f1b; 
     text-align:center;
     position: absolute;
     left: 0px;
 }
 
-#aboutbg{
+
+#portfoliobg{
     background-color: #ffffff;
     width: 100%;
     height: 100%;
 }
 
-#portfoliobg{
-    background-color: #0e394d;
+#gallerybg{
+    background-color: #050f1b;
+    width: 100%;
+    height: 100%;
+}
+
+#aboutbg{
+    background-image: url("img/wavee.jpg");
     width: 100%;
     height: 100%;
 }
@@ -52,21 +60,20 @@
 #skill{
     font-family: Helvetica LT Std Light;
     font-size: 16px;
-    color: #ffffff;
+    color:#050f1b;
 }
 
 #skilltitle{
     font-family: Gotham Regular;
     font-size: 20px;
-    color: #ffffff;
+    color: #050f1b;
 }
 
 #hrskill{
-
     margin-left: 300px;
     margin-right: 300px;
-    background-color: #ffffff;
-    height: 0.5px;
+    background-color: #050f1b;
+    height: 2px;
 
 }
 
@@ -75,7 +82,7 @@
     font-size:20px;
     text-decoration: none;
     letter-spacing: 2px;
-    color:#ffffff;
+    color:#050f1b;
     font-family: Helvetica LT Std Light;
 }
 
@@ -88,24 +95,26 @@ hr{
 
 a{
     text-decoration: none;
-    font-size:15px;
-    color:#17242a;
-    font-variant: small-caps;
-    font-family: Gotham Regular;
+    display: inline-block;
+    font-size:14px;
+    color:#787877;
+    font-family: Arial, Helvetica;
 }
 
 a:hover{
-	color:#3aafa9;
+	color:#0e394d;
         text-decoration: strong;
 }
+
 
 ul li{
     float:right;
     list-style: none;
-    width: 130px;
+    width: 120px;
     height: 55px;
     text-align: center;
     line-height: 50px;
+    margin-top: 3px;
 }
 
 table{
@@ -114,14 +123,14 @@ table{
 }
 tr td{
     font-family: Helvetica LT Std Light;
-    color: #17242a;
+    color: #050f1b;
     margin-left: 200px;
     width:70%;	
 }
 
 tr th{
     font-family: Gotham Regular;
-    color: #3aafa9;
+    color: #050f1b;
     margin-left: 200px;
     width:70%;	
     text-align: left;
@@ -136,16 +145,18 @@ p{
 
 h1{
     font-size:20px;
+    letter-spacing: 4px;
     text-decoration: none;
-    color:#ffffff;
+    color:#050f1b;
     font-variant: small-caps;
     font-family: Gotham Regular;
 }
 
 h2{
     font-size:20px;
+    letter-spacing: 4px;
     text-decoration: none;
-    color:#1b1b1b;
+    color:#ffffff;
     font-variant: small-caps;
     font-family: Gotham Regular;
 }
@@ -155,3 +166,39 @@ h3{
     color:#17242a;
     font-family: Gotham Regular;
 }	
+
+.button {
+    background:  transparent;
+    border: 5px solid #ffffff;
+    width: 700px;
+    height: 100px;
+    font-family: Gotham Regular;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:#050f1b;
+    border: 5px solid #ffffff;
+    width: 700px;
+    height: 100px;
+    font-family: Gotham Regular;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
