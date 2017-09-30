@@ -10,7 +10,7 @@
     height: 60px;
     position: fixed;
     top: 0px; 
-    box-shadow: -2px 0px 20px #000000;
+    box-shadow: -2px 0px 10px #000000;
 }
 
 #NavBar{
@@ -34,24 +34,36 @@
     background-color: #ffffff;
     width: 100%;
     height: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
 #gallerybg{
     background-color: #050f1b;
     width: 100%;
     height: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
 #aboutbg{
     background-image: url("img/wavee.jpg");
     width: 100%;
     height: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
 #homebg{
     background-image: url("img/thecov.jpg");
     width: 100%;
     height: 700px;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
 }
 
 #title{
@@ -90,6 +102,23 @@
     letter-spacing: 2px;
     color:#050f1b;
     font-family: Helvetica LT Std Light;
+}
+
+#titlehome{
+    background:  transparent;
+    border: 5px solid black;
+    width: 700px;
+    height: 100px;
+    font-family: Gotham Regular;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 hr{
