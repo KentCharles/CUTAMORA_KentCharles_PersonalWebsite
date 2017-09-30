@@ -7,7 +7,7 @@
 #Header{
     background-color: #ffffff; 
     width: 100%;
-    height: 60px;
+    height: 50px;
     position: fixed;
     top: 0px; 
     box-shadow: -2px 0px 10px #000000;
@@ -16,7 +16,7 @@
 #NavBar{
     margin-right: 170px;
     width:800px;
-    height: 55px;
+    height: 45px;
     float:right;	
 }
 
@@ -31,7 +31,7 @@
 
 
 #portfoliobg{
-    background-color: #e8ecef;
+    background-color: #fafafa;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -104,6 +104,23 @@
     font-family: Helvetica LT Std Light;
 }
 
+#titlecover{
+    background:  transparent;
+    border: 5px solid white;
+    width: 700px;
+    height: 100px;
+    font-family: Gotham Regular;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 #titlehome{
     background:  transparent;
     border: 5px solid black;
@@ -132,12 +149,12 @@ a{
     text-decoration: none;
     display: inline-block;
     font-size:14px;
-    color:#787877;
-    font-family: Arial, Helvetica;
+    color: black;
+    font-family: Calibri;
 }
 
 a:hover{
-	color:#0e394d;
+	color:grey;
         text-decoration: strong;
 }
 
@@ -158,14 +175,14 @@ table{
 }
 tr td{
     font-family: Helvetica LT Std Light;
-    color: #050f1b;
+    color: black;
     margin-left: 200px;
     width:70%;	
 }
 
 tr th{
     font-family: Gotham Regular;
-    color: #050f1b;
+    color: black;
     margin-left: 200px;
     width:70%;	
     text-align: left;
@@ -182,7 +199,7 @@ h1{
     font-size:20px;
     letter-spacing: 4px;
     text-decoration: none;
-    color:#050f1b;
+    color:black;
     font-variant: small-caps;
     font-family: Gotham Regular;
 }
@@ -205,8 +222,8 @@ h3{
 .button {
     background:  transparent;
     border: 5px solid #ffffff;
-    width: 700px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     font-family: Gotham Regular;
     color: white;
     padding: 15px 32px;
@@ -220,10 +237,10 @@ h3{
 }
 
 .button:hover{
-    background-color: #f7f7f7;
+    background-color: transparent;
     border: 5px solid black;
-    width: 700px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     font-family: Gotham Regular;
     color: black;
     padding: 15px 32px;
@@ -236,8 +253,46 @@ h3{
     cursor: pointer;
 }
 
+#biocover{
+    background-image: url("img/bio.jpg");
+    width: 100%;
+    height: 350px;
+    display: table;
+    background-attachment: fixed;
+}
 
+#educcover{
+    background-image: url("img/ed.jpg");
+    width: 100%;
+    height: 350px;
+    display: table;
+    background-attachment: fixed;
+}
 
+#workcover{
+    background-image: url("img/exper.png");
+    width: 100%;
+    height: 350px;
+    display: table;
+    background-attachment: fixed;
+}
+
+#affilcover{
+    background-image: url("img/aff.jpg");
+    width: 100%;
+    height: 350px;
+    display: table;
+    background-attachment: fixed;
+}
+
+#resumebg{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
 
 
 
