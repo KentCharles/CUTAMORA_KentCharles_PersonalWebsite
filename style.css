@@ -14,7 +14,7 @@
 }
 
 #NavBar{
-    margin-right: 100px;
+    margin-right: 200px;
     width:800px;
     height: 65px;
     margin-top: 7px;
@@ -136,6 +136,12 @@
     letter-spacing: 8px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+#logo{
+    margin-top:18px;
+    margin-left: 250px;
+
 }
 
 hr{
