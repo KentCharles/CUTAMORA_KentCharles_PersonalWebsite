@@ -67,11 +67,10 @@
 }
 
 #title{
-    margin-left: 350px;
     font-size:20px;
     text-decoration: none;
     letter-spacing: 2px;
-    color:#1b1b1b;
+    color:black;
     font-family: Helvetica LT Std Light;
 }
 
@@ -219,9 +218,10 @@ h2{
 }
 
 h3{
-    font-size:15px;
-    color:#17242a;
-    font-family: Gotham Regular;
+    font-size:20px;
+    color:black;
+    letter-spacing: 2px;
+    font-family: Helvetica LT Std Light;
 }	
 
 .button {
@@ -291,9 +291,9 @@ h3{
 }
 
 #resumebg{
-    background-color: white;
+    background-color:white;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -376,27 +376,9 @@ h3{
   -ms-transform: translate(-50%, -50%);
 }
 
-#leftfooter{
+#contentfooter{
     height: 320px;
 }
 
 
-.header {
-    border: 1px solid red;
-    padding: 15px;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
-}
-
-.col-1 {width: 8;}
-.col-2 {width: 1x0;}
-.col-3 {width: 30;}
