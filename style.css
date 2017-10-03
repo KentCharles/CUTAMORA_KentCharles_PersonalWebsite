@@ -196,7 +196,7 @@ p{
     color:black;
     font-family: Helvetica LT Std Light;
     float:right;
-    margin-right: 160px;
+    margin-right: 240px;
 }
 
 h1{
@@ -380,5 +380,9 @@ h3{
     height: 320px;
 }
 
-
+#prof{
+    font-family: Helvetica LT Std Light;
+    color: black;
+    table-border: black;
+}
 
