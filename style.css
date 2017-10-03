@@ -210,10 +210,9 @@ h1{
 
 h2{
     font-size:20px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     text-decoration: none;
-    color:#ffffff;
-    font-variant: small-caps;
+    color: black;
     font-family: Gotham Regular;
 }
 
