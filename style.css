@@ -377,6 +377,26 @@ h3{
 }
 
 #leftfooter{
-    width: 700px;
     height: 320px;
 }
+
+
+.header {
+    border: 1px solid red;
+    padding: 15px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.col-1 {width: 8;}
+.col-2 {width: 1x0;}
+.col-3 {width: 30;}
