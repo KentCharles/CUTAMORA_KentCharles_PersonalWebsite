@@ -410,41 +410,41 @@ transform: scale(1.1);
 img.insta {
 width: 100px;
 height: 100px;
-background: url('img/outl.png');
+background: url('img/insta.png');
 transition: all .1s ease-in-out;
 }
 
 img.insta:hover {
 width: 100px;
 height: 100px;
-background: url('img/outlhov.png');
+background: url('img/instahov.png');
 transform: scale(1.1);
 }
 
 img.behance {
 width: 100px;
 height: 100px;
-background: url('img/outl.png');
+background: url('img/behance.png');
 transition: all .1s ease-in-out;
 }
 
 img.behance:hover {
 width: 100px;
 height: 100px;
-background: url('img/outlhov.png');
+background: url('img/behancehov.png');
 transform: scale(1.1);
 }
 
 img.fb {
 width: 100px;
 height: 100px;
-background: url('img/outl.png');
+background: url('img/fb.png');
 transition: all .1s ease-in-out;
 }
 
 img.fb:hover {
 width: 100px;
 height: 100px;
-background: url('img/outlhov.png');
+background: url('img/fbhov.png');
 transform: scale(1.1);
 }
