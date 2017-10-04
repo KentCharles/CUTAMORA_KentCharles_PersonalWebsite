@@ -392,3 +392,59 @@ border-color: black;
 color: black;
   
 }
+
+img.outl {
+width: 100px;
+height: 100px;
+background: url('img/outl.png');
+transition: all .1s ease-in-out;
+}
+
+img.outl:hover {
+width: 100px;
+height: 100px;
+background: url('img/outlhov.png');
+transform: scale(1.1);
+}
+
+img.insta {
+width: 100px;
+height: 100px;
+background: url('img/outl.png');
+transition: all .1s ease-in-out;
+}
+
+img.insta:hover {
+width: 100px;
+height: 100px;
+background: url('img/outlhov.png');
+transform: scale(1.1);
+}
+
+img.behance {
+width: 100px;
+height: 100px;
+background: url('img/outl.png');
+transition: all .1s ease-in-out;
+}
+
+img.behance:hover {
+width: 100px;
+height: 100px;
+background: url('img/outlhov.png');
+transform: scale(1.1);
+}
+
+img.fb {
+width: 100px;
+height: 100px;
+background: url('img/outl.png');
+transition: all .1s ease-in-out;
+}
+
+img.fb:hover {
+width: 100px;
+height: 100px;
+background: url('img/outlhov.png');
+transform: scale(1.1);
+}
