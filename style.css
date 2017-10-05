@@ -3,6 +3,9 @@
     padding: 0px;
 }
 
+/* ------------------------------------ */
+/* Home */
+/* ------------------------------------ */
 
 #Header{
     background-color: #ffffff; 
@@ -312,6 +315,10 @@ h3{
     display: table;
     background-attachment: fixed;
 }
+
+/* ------------------------------------ */
+/* Footer */
+/* ------------------------------------ */
 
 #cont{
     font-family: Gotham Regular;
